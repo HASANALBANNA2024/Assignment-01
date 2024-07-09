@@ -164,6 +164,7 @@
     letter-spacing: 0%;
     text-align: center;
 }
+
 .learn-button {
     width: 171px;
     height: 47px;
@@ -174,6 +175,20 @@
     padding: 12px 20px 12px 20px;
     border: 1px solid tomato;
 }
+
+.learn {
+    width: 150px;
+    height: 19px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
 /* Container box -1*/
 .container-size-1 {
     width: 946px;
@@ -187,18 +202,23 @@
 }
 
 
-.contain-message-1{
+.contain-message-1 {
     width: 477px;
     height: 219px;
     border: 1px solid tomato;
 
 }
-.contain-picture-1{
+
+.contain-picture-1 {
     width: 259px;
     height: 217px;
-   
+
     border: 1px solid tomato;
+    background: url('/style/assets/Layer_1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
 /* Container box -2*/
 .container-size-2 {
     width: 946px;
@@ -212,18 +232,23 @@
 }
 
 
-.contain-message-2{
+.contain-message-2 {
     width: 477px;
     height: 219px;
     border: 1px solid tomato;
 
 }
-.contain-picture-2{
+
+.contain-picture-2 {
     width: 259px;
     height: 217px;
-   
+
     border: 1px solid tomato;
+    background: url('/style/assets/Group\ 3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
 /* Container box -3*/
 .container-size-3 {
     width: 946px;
@@ -237,20 +262,24 @@
 }
 
 
-.contain-message-3{
+.contain-message-3 {
     width: 477px;
     height: 219px;
     border: 1px solid tomato;
 
 }
-.contain-picture-3{
+
+.contain-picture-3 {
     width: 259px;
     height: 217px;
-   
+
     border: 1px solid tomato;
+    background: url('/style/assets/Group\ 4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.inspiration{
+.inspiration {
     width: 1140px;
     height: 775px;
     padding: 0;
@@ -259,13 +288,15 @@
     margin-top: 90px;
     border: 1px solid tomato;
 }
-.inspiration-message{
+
+.inspiration-message {
     width: 852px;
     height: 113px;
     margin-left: 144px;
     border: 1px solid tomato;
 }
-.inspiration-video{
+
+.inspiration-video {
     width: 1140px;
     height: 614px;
     padding: 1px;
@@ -274,97 +305,178 @@
     border: 1px solid tomato;
 }
 
-.target{
-    width: 1140px ;
+.target {
+    width: 1140px;
     height: 460px;
     margin: 0 auto;
     margin-top: 151px;
     border: 1px solid tomato;
 }
-.target-message{
+
+.target-message {
     width: 946px;
     height: 113px;
-    border: 1px solid tomato; /* this border is exist in site*/
+    border: 1px solid tomato;
+    /* this border is exist in site*/
     text-align: center;
 
 
 }
-.target-card-box{
+
+.target-card-box {
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
-    align-items:flex-start;
+    justify-content: space-between;
+    align-items: flex-start;
     gap: 13px;
-    
+
 }
-.card-1{
+
+.card-1 {
     width: 280px;
     height: 210px;
     padding: 40px;
     margin-top: 48px;
-    border: 1px solid tomato; /* this border is exist in site*/
+    border: 1px solid tomato;
+    /* this border is exist in site*/
 }
-.next-target{
+
+.next-target {
     width: 1140px;
     height: 866px;
     margin: 0 auto;
     margin-top: 111px;
-    border: 1px solid tomato;  /* This border is exist in site */
+    border: 1px solid tomato;
+    /* This border is exist in site */
 }
-.next-target-message{
+
+.next-target-message {
     width: 825px;
     height: 113px;
     pad: 0;
-    border: 1px solid tomato; /*this border is exist in site*/
+    border: 1px solid tomato;
+    /*this border is exist in site*/
     margin-bottom: 48px;
 
 }
-.view-box-container{
+
+.view-box-container {
+/* 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    column-gap: 20px; */
+   
 
 }
-.view-box-1{
+
+
+
+.view-box-1 {
     width: 1050px;
-    height: 139px;
+    height: 138px;
     padding: 40px;
-    border: 1px solid tomato; /*this border is exist in site*/
+    border: 1px solid tomato;
+    /*this border is exist in site*/
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
 }
-.view-box-2{
+.view-box-1-picture{
+    width: 94px;
+    height: 84px;
+    border: 1px solid tomato;
+
+}
+.view-box-1-message-contain{
+    width: 941px;
+    height: 139px;
+    border: 1px solid tomato;
+
+}
+
+
+
+.view-box-2 {
     width: 1050px;
-    height: 139px;
+    height: 138px;
     padding: 40px;
-    border: 1px solid tomato; /*this border is exist in site*/
+    border: 1px solid tomato;
+    /*this border is exist in site*/
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
 }
-.view-box-3{
+.view-box-2-picture{
+    width: 94px;
+    height: 84px;
+    border: 1px solid tomato;
+
+}
+.view-box-2-message-contain{
+    width: 941px;
+    height: 139px;
+    border: 1px solid tomato;
+
+}
+
+
+.view-box-3 {
     width: 1040px;
     height: 138px;
     padding: 40px;
-    border: 1px solid tomato; /*this border is exist in site*/
+    border: 1px solid tomato;
+    /*this border is exist in site*/
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
 }
-.support-section{
+.view-box-3-picture{
+    width: 94px;
+    height: 84px;
+    border: 1px solid tomato;
+
+}
+.view-box-3-message-contain{
+    width: 941px;
+    height: 139px;
+    border: 1px solid tomato;
+
+}
+
+
+.support-section {
     width: 1140px;
     height: 313px;
     padding: 64px 48px 64px 48px;
-    border: 1px solid tomato; /*this border is exist in site*/
+    border: 1px solid tomato;
+    /*this border is exist in site*/
     margin-top: 49px;
     background: url('/style/assets/handshake.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 16px;
 }
-.support-container-box{
+
+.support-container-box {
     width: 1044px;
     height: 185px;
     border: 1px solid tomato;
 }
-.footer{
+
+.footer {
     width: 1440px;
-    height:100px;
+    height: 100px;
     margin-top: 80px;
     border: 1px solid tomato;
 }
-
-
-
