@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Azeret Mono", monospace; */
+
+
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.primary {
+    width: 1440px;
+    height: 131px;
+    border: 1px solid tomato;
+
+}
+
+.primary-section {
+    width: 128px;
+    height: 33px;
+    margin-left: 150px;
+    margin-top: 50px;
+    border: 1px solid tomato;
+
+}
+
+
+
+/* /** upper side next day te kaj korte hobe  */
+
+.banner {
+    width: 1440px;
+    height: 652px;
+    /* border: 1px solid tomato; */
+    background: url('/style/assets/Hero-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-container {
+    width: 998px;
+    height: 582px;
+    margin-top: 26px;
+    margin: 26px 221px 44px 221px;
+    /* border: 1px solid tomato; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
+
+.contain-1 {
+
+    width: 240px;
+    height: 240px;
+    margin: auto;
+    /* border: 1px solid tomato; */
+    margin-bottom: 32px;
+}
+
+.contain-2 {
+    width: 998px;
+    height: 136px;
+    /* border: 1px solid tomato; */
+}
+
+.contain-2 h5 {
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono", monospace;
+    font-size: 42px;
+    font-weight: 800px;
+    line-height: 68px;
+    text-align: center;
+    letter-spacing: 0%;
+}
+
+.contain-3 {
+    width: 852px;
+    height: 52px;
+    margin-top: 24px;
+    /* border: 1px solid tomato; */
+
+
+}
+
+.contain-3 p {
+    font-family: "Azeret Mono", monospace;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+/* .contain-4 {
+    width: 208px;
+    height: 66px;
+    margin-top: 23px;
+    border: 1px solid tomato; */
+/* } */
+.button {
+    width: 208px;
+    height: 66px;
+
+    font-size: 20px;
+    font-weight: 600px;
+    line-height: 23px;
+    text-align: center;
+    margin-top: 24px;
+    
+    background: rgb(13, 19, 33);
+
+    border-radius: 8px;
+    text-decoration: none;
+
+
+
+
+
+}
