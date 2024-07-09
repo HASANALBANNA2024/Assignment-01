@@ -361,13 +361,13 @@
 }
 
 .view-box-container {
-/* 
+    /* 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items:center;
     column-gap: 20px; */
-   
+
 
 }
 
@@ -384,15 +384,17 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
+
 }
-.view-box-1-picture{
+
+.view-box-1-picture {
     width: 94px;
     height: 84px;
     border: 1px solid tomato;
 
 }
-.view-box-1-message-contain{
+
+.view-box-1-message-contain {
     width: 941px;
     height: 139px;
     border: 1px solid tomato;
@@ -412,15 +414,17 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
+
 }
-.view-box-2-picture{
+
+.view-box-2-picture {
     width: 94px;
     height: 84px;
     border: 1px solid tomato;
 
 }
-.view-box-2-message-contain{
+
+.view-box-2-message-contain {
     width: 941px;
     height: 139px;
     border: 1px solid tomato;
@@ -439,15 +443,17 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
+
 }
-.view-box-3-picture{
+
+.view-box-3-picture {
     width: 94px;
     height: 84px;
     border: 1px solid tomato;
 
 }
-.view-box-3-message-contain{
+
+.view-box-3-message-contain {
     width: 941px;
     height: 139px;
     border: 1px solid tomato;
@@ -479,4 +485,47 @@
     height: 100px;
     margin-top: 80px;
     border: 1px solid tomato;
+}
+
+.support-message {
+    width: 730px;
+    height: 104px;
+    text-align: center;
+    border: 1px solid tomato;
+}
+
+.support-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* gap: 16px ; */
+
+}
+
+.email input {
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin-left: 180px;
+    /*this border exist in site  */
+
+}
+
+.support-design-button {
+    margin-right: 180px;
+    /* margin-top: px; */
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+    font: bold;
+
+
 }
