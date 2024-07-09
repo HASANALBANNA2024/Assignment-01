@@ -109,7 +109,7 @@
     line-height: 23px;
     text-align: center;
     margin-top: 24px;
-    
+
     background: rgb(13, 19, 33);
 
     border-radius: 8px;
@@ -120,3 +120,251 @@
 
 
 }
+
+
+/* why Web Development*/
+
+.reason-of-web-development {
+
+    width: 1140px;
+    height: 1393px;
+    margin: 0 auto;
+    margin-top: 48px;
+    border: 16px;
+    padding: 80px 97px 80px 97px;
+    border: 1px solid tomato;
+}
+
+.reason-of-web-1 {
+    width: 852px;
+    height: 133px;
+    border: 1px solid tomato;
+    padding: 0;
+
+}
+
+.reason-of-web-1 h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+
+}
+
+.reason-of-web-1 p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.learn-button {
+    width: 171px;
+    height: 47px;
+    background-color: ;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+    border: 1px solid tomato;
+}
+/* Container box -1*/
+.container-size-1 {
+    width: 946px;
+    height: 300px;
+    padding: 48px;
+    border: 16px;
+    margin-bottom: 32px;
+    border: 1px solid tomato;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.contain-message-1{
+    width: 477px;
+    height: 219px;
+    border: 1px solid tomato;
+
+}
+.contain-picture-1{
+    width: 259px;
+    height: 217px;
+   
+    border: 1px solid tomato;
+}
+/* Container box -2*/
+.container-size-2 {
+    width: 946px;
+    height: 300px;
+    padding: 48px;
+    border: 16px;
+    margin-bottom: 32px;
+    border: 1px solid tomato;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.contain-message-2{
+    width: 477px;
+    height: 219px;
+    border: 1px solid tomato;
+
+}
+.contain-picture-2{
+    width: 259px;
+    height: 217px;
+   
+    border: 1px solid tomato;
+}
+/* Container box -3*/
+.container-size-3 {
+    width: 946px;
+    height: 300px;
+    padding: 48px;
+    border: 16px;
+    margin-bottom: 32px;
+    border: 1px solid tomato;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.contain-message-3{
+    width: 477px;
+    height: 219px;
+    border: 1px solid tomato;
+
+}
+.contain-picture-3{
+    width: 259px;
+    height: 217px;
+   
+    border: 1px solid tomato;
+}
+
+.inspiration{
+    width: 1140px;
+    height: 775px;
+    padding: 0;
+    border: 0;
+    margin: 0 auto;
+    margin-top: 90px;
+    border: 1px solid tomato;
+}
+.inspiration-message{
+    width: 852px;
+    height: 113px;
+    margin-left: 144px;
+    border: 1px solid tomato;
+}
+.inspiration-video{
+    width: 1140px;
+    height: 614px;
+    padding: 1px;
+    margin-top: 48px;
+    border: 16px;
+    border: 1px solid tomato;
+}
+
+.target{
+    width: 1140px ;
+    height: 460px;
+    margin: 0 auto;
+    margin-top: 151px;
+    border: 1px solid tomato;
+}
+.target-message{
+    width: 946px;
+    height: 113px;
+    border: 1px solid tomato; /* this border is exist in site*/
+    text-align: center;
+
+
+}
+.target-card-box{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap: 13px;
+    
+}
+.card-1{
+    width: 280px;
+    height: 210px;
+    padding: 40px;
+    margin-top: 48px;
+    border: 1px solid tomato; /* this border is exist in site*/
+}
+.next-target{
+    width: 1140px;
+    height: 866px;
+    margin: 0 auto;
+    margin-top: 111px;
+    border: 1px solid tomato;  /* This border is exist in site */
+}
+.next-target-message{
+    width: 825px;
+    height: 113px;
+    pad: 0;
+    border: 1px solid tomato; /*this border is exist in site*/
+    margin-bottom: 48px;
+
+}
+.view-box-container{
+
+}
+.view-box-1{
+    width: 1050px;
+    height: 139px;
+    padding: 40px;
+    border: 1px solid tomato; /*this border is exist in site*/
+    margin-bottom: 20px;
+}
+.view-box-2{
+    width: 1050px;
+    height: 139px;
+    padding: 40px;
+    border: 1px solid tomato; /*this border is exist in site*/
+    margin-bottom: 20px;
+}
+.view-box-3{
+    width: 1040px;
+    height: 138px;
+    padding: 40px;
+    border: 1px solid tomato; /*this border is exist in site*/
+    margin-bottom: 20px;
+}
+.support-section{
+    width: 1140px;
+    height: 313px;
+    padding: 64px 48px 64px 48px;
+    border: 1px solid tomato; /*this border is exist in site*/
+    margin-top: 49px;
+    background: url('/style/assets/handshake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+}
+.support-container-box{
+    width: 1044px;
+    height: 185px;
+    border: 1px solid tomato;
+}
+.footer{
+    width: 1440px;
+    height:100px;
+    margin-top: 80px;
+    border: 1px solid tomato;
+}
+
+
+
