@@ -28,11 +28,11 @@
 
 /* /** upper side next day te kaj korte hobe  */
 
-.banner .banner-image{
+.banner {
     width: 1440px;
     height: 652px;
     /* border: 1px solid tomato; */
-    /* background: url('images/Hero-bg.png'); */
+    background: url('images/Hero-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -57,11 +57,13 @@
     margin: auto;
     /* border: 1px solid tomato; */
     margin-bottom: 32px;
+    transform: rotate(0.00deg);
 }
 
 .contain-2 {
     width: 998px;
     height: 136px;
+
     /* border: 1px solid tomato; */
 }
 
@@ -85,6 +87,7 @@
 }
 
 .contain-3 p {
+    color: rgb(13, 19, 33);
     font-family: "Azeret Mono", monospace;
     font-size: 16px;
     font-weight: 400px;
@@ -157,7 +160,7 @@
 
 .reason-of-web-1 p {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Azeret Mono", monospace;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -168,7 +171,7 @@
 .learn-button {
     width: 171px;
     height: 47px;
-    background-color:rgb(13, 19, 33);
+    background-color: rgb(13, 19, 33);
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
@@ -179,7 +182,7 @@
 .learn {
     width: 150px;
     height: 19px;
-    color:none;
+    color: none;
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 700;
@@ -212,11 +215,51 @@
 .contain-picture-1 {
     width: 259px;
     height: 217px;
-
     border: 1px solid tomato;
-    background: url('/images/Layer_1.png');
     background-size: cover;
     background-repeat: no-repeat;
+    left: 0.36%;
+    right: -0.36%;
+    top: 1.74%;
+    bottom: -1.74%;
+    background: url('/images/Layer_1.png');
+}
+
+.contain-message-1 h2 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 600px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.contain-message-1 p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.contain-message-1 button {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    background-color: white;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    margin-top: 8px;
+
 }
 
 /* Container box -2*/
@@ -229,6 +272,43 @@
     border: 1px solid tomato;
     display: flex;
     flex-direction: row;
+}
+
+.contain-message-2 h2 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 600px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.contain-message-2 p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.contain-message-2 button {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    background-color: white;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    margin-top: 8px;
+
 }
 
 
@@ -247,6 +327,10 @@
     background: url('/images/Group\ 3.png');
     background-size: cover;
     background-repeat: no-repeat;
+    left: 0.36%;
+    right: -0.36%;
+    top: 1.74%;
+    bottom: -1.74%;
 }
 
 /* Container box -3*/
@@ -277,6 +361,47 @@
     background: url('/images/Group\ 4.png');
     background-size: cover;
     background-repeat: no-repeat;
+    left: 0.36%;
+    right: -0.36%;
+    top: 1.74%;
+    bottom: -1.74%;
+}
+
+.contain-message-3 h2 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 600px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.contain-message-3 p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.contain-message-3 button {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    background-color: white;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    margin-top: 8px;
+
 }
 
 .inspiration {
@@ -296,6 +421,27 @@
     border: 1px solid tomato;
 }
 
+.inspiration-message h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.inspiration-message p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
 .inspiration-video {
     width: 1140px;
     height: 614px;
@@ -303,21 +449,27 @@
     margin-top: 48px;
     border: 16px;
     border: 1px solid tomato;
-    
+
 }
-.video-size{
-   
+.inspiration-video iframe{
+
     
+    border-radius: 16px;
+}
+
+.video-size {
+
+
     border: 32px;
     padding: 32px;
     text-align: center;
 
     margin: 10px 0px;
     border-radius: 16px;
-    
 
-    
-    
+
+
+
 }
 
 .target {
@@ -373,7 +525,7 @@
     /*this border is exist in site*/
     margin-bottom: 48px;
     margin: 0 auto;
-    text-align:center;
+    text-align: center;
 
 }
 
@@ -561,7 +713,7 @@
     width: 1140px;
     height: 36px;
     margin: 0 auto;
-   
+
     /* border: 1px solid tomato; */
     display: flex;
     flex-direction: row;
@@ -569,7 +721,7 @@
     align-items: flex-start;
     gap: 526px;
     margin-top: 32px;
-     margin-left: 150x;
+    margin-left: 150x;
 
 }
 
@@ -579,7 +731,7 @@
     /* border: 1px solid tomato; */
     text-align: center;
     margin-top: 32px;
-   
+
 }
 
 .footer-message h2 {
@@ -591,26 +743,25 @@
     letter-spacing: 0%;
     text-align: center;
 }
-.footer-icon{
+
+.footer-icon {
     height: 36px;
     width: 157px;
     margin-right: 0 10px;
-    border:5px;
+    border: 5px;
     border-color: none;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     margin-top: 32px;
-    
+
 }
-.footer-icon-image{
+
+.footer-icon-image {
     width: 36px;
     height: 36px;
-    background: linear-gradient(135.00deg, rgb(36, 137, 190) 14.645%,rgb(5, 117, 179) 85.355%);
+    background: linear-gradient(135.00deg, rgb(36, 137, 190) 14.645%, rgb(5, 117, 179) 85.355%);
 }
-.view-box-2 img{
 
-
-
-}
+.view-box-2 img {}
