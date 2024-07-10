@@ -67,7 +67,7 @@ nav button {
     height: 582px;
     margin-top: 26px;
     margin: 26px 221px 44px 221px;
-    /* border: 1px solid tomato; */
+  
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -82,6 +82,7 @@ nav button {
     margin: auto;
     margin-bottom: 32px;
     transform: rotate(0.00deg);
+    background-image: url('images/Group.png');
   
 }
 
