@@ -83,6 +83,8 @@ nav button {
     margin-bottom: 32px;
     transform: rotate(0.00deg);
     background-image: url('images/Group.png');
+    background-size: cover;
+    backface-visibility: visible;
   
 }
 
