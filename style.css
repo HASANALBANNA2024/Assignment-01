@@ -75,15 +75,15 @@ nav button {
     padding: 0px;
 }
 
-.contain-1 img{
+.contain-1{
 
     width: 240px;
     height: 240px;
     margin: auto;
     margin-bottom: 32px;
     transform: rotate(0.00deg);
-    /* background-image: url('images/Group.png');
-    background-repeat: no-repeat; */
+    background-image: url('images/Group.png');
+    
   
   
 }
