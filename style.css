@@ -429,7 +429,7 @@
     line-height: 37px;
     letter-spacing: 0%;
     text-align: center;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 
 .inspiration-message p {
@@ -440,20 +440,22 @@
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
+    margin-bottom: 48px;
 }
 
 .inspiration-video {
     width: 1140px;
     height: 614px;
     padding: 1px;
-    margin-top: 48px;
+    margin-top: 32px;
     border: 16px;
     border: 1px solid tomato;
 
 }
-.inspiration-video iframe{
 
-    
+.inspiration-video iframe {
+
+
     border-radius: 16px;
 }
 
@@ -490,6 +492,28 @@
 
 }
 
+.target-message h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.target-message p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
 .target-card-box {
     display: flex;
     flex-direction: row;
@@ -506,6 +530,55 @@
     margin-top: 48px;
     border: 1px solid tomato;
     /* this border is exist in site*/
+}
+
+.card-1 img {
+    width: 39px;
+    height: 45px;
+    margin-bottom: 24px;
+}
+
+.card-1 h1 {
+    width: 280px;
+    height: 36px;
+    align-self: self-start;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 8px;
+
+}
+
+.card-1 p {
+    width: 280px;
+    height: 52px;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 36px;
+}
+
+.card-1 a {
+    width: 280px;
+    height: 20px;
+    align-self: stretch;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
 }
 
 .next-target {
@@ -557,6 +630,34 @@
 
 }
 
+.next-target-message h1 {
+    width: 852px;
+    height: 39px;
+    padding: 0;
+    align-self: stretch;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.next-target-message p {
+    width: 852px;
+    height: 52px;
+    margin-top: 24px;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
 .view-box-1-picture {
     width: 94px;
     height: 84px;
@@ -568,9 +669,49 @@
     width: 941px;
     height: 139px;
     border: 1px solid tomato;
+    
+
+
 
 }
 
+.view-box-1-message-contain h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.view-box-1-message-contain p {
+    width: 941px;
+    height: 52px;
+    margin-bottom: 8px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.view-box-1-message-contain a {
+    width: 941px;
+    height: 19px;
+    margin-top: 60px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
 
 
 .view-box-2 {
@@ -600,6 +741,44 @@
     border: 1px solid tomato;
 
 }
+.view-box-2-message-contain h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.view-box-2-message-contain p {
+    width: 941px;
+    height: 52px;
+    margin-bottom: 8px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.view-box-2-message-contain a {
+    width: 941px;
+    height: 19px;
+    margin-top: 52px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
 
 
 .view-box-3 {
@@ -629,6 +808,44 @@
     border: 1px solid tomato;
 
 }
+.view-box-3-message-contain h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.view-box-3-message-contain p {
+    width: 941px;
+    height: 52px;
+    margin-bottom: 8px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.view-box-3-message-contain a {
+    width: 941px;
+    height: 19px;
+    margin-top: px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
 
 
 .support-section {
