@@ -13,7 +13,7 @@
 nav {
     width: 1440px;
     height: 131px;
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -48,21 +48,10 @@ nav button {
     font-weight: 500;
     line-height: 23px;
     letter-spacing: 0%;
-    background: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+   
+    
 }
-
-/* .primary-section {
-    width: 128px;
-    height: 33px;
-    margin-left: 150px;
-    margin-top: 50px;
-    border: 1px solid tomato;
-
-} */
-
-
-
-/* /** upper side next day te kaj korte hobe  */
 
 .banner {
     width: 1440px;
@@ -91,7 +80,7 @@ nav button {
     width: 240px;
     height: 240px;
     margin: auto;
-    /* border: 1px solid tomato; */
+    
     margin-bottom: 32px;
     transform: rotate(0.00deg);
 }
@@ -100,7 +89,7 @@ nav button {
     width: 998px;
     height: 136px;
 
-    /* border: 1px solid tomato; */
+   
 }
 
 .contain-2 h5 {
@@ -117,7 +106,7 @@ nav button {
     width: 852px;
     height: 52px;
     margin-top: 24px;
-    /* border: 1px solid tomato; */
+    
 
 
 }
@@ -167,32 +156,15 @@ nav button {
     margin-top: 48px;
     border: 16px;
     padding: 80px 97px 80px 97px;
-    border: 1px solid tomato;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
 }
 
-/* .container-box-1 {
-    width: 946px;
-    height: 336px;
-    padding: 48px;
-    margin: 32px 0px;
-    border-radius: 16px;
-    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
-}
-.container-box-2 {
-    width: 946px;
-    height: 336px;
-    padding: 48px;
-    margin: 32px 0px;
-    border-radius: 16px;
-    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
-} */
+
 
 .reason-of-web-1 {
     width: 852px;
     height: 133px;
-    border: 1px solid tomato;
     padding: 0;
 
 }
@@ -227,7 +199,7 @@ nav button {
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
     padding: 12px 20px 12px 20px;
-    border: 1px solid tomato;
+  
 
 }
 
@@ -251,7 +223,6 @@ nav button {
     padding: 48px;
     border: 16px;
     margin-bottom: 32px;
-    border: 1px solid tomato;
     display: flex;
     flex-direction: row;
     border-radius: 16px;
@@ -264,14 +235,13 @@ nav button {
 .contain-message-1 {
     width: 477px;
     height: 219px;
-    border: 1px solid tomato;
+
 
 }
 
 .contain-picture-1 {
     width: 259px;
     height: 217px;
-    border: 1px solid tomato;
     background-size: cover;
     background-repeat: no-repeat;
     left: 0.36%;
@@ -322,10 +292,7 @@ nav button {
 .container-size-2 {
     width: 850px;
     height: 240px;
-
-
     margin-bottom: 32px;
-    border: 1px solid tomato;
     display: flex;
     flex-direction: row;
     border-radius: 16px;
@@ -373,15 +340,12 @@ nav button {
 .contain-message-2 {
     width: 477px;
     height: 219px;
-    border: 1px solid tomato;
 
 }
 
 .contain-picture-2 {
     width: 259px;
     height: 217px;
-
-    border: 1px solid tomato;
     background: url('images/Group\ 3.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -398,7 +362,6 @@ nav button {
     padding: 48px;
     border: 16px;
     margin-bottom: 32px;
-    border: 1px solid tomato;
     display: flex;
     flex-direction: row;
     border-radius: 16px;
@@ -409,15 +372,12 @@ nav button {
 .contain-message-3 {
     width: 477px;
     height: 219px;
-    border: 1px solid tomato;
 
 }
 
 .contain-picture-3 {
     width: 259px;
     height: 217px;
-
-    border: 1px solid tomato;
     background: url('images/Group\ 4.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -471,14 +431,14 @@ nav button {
     border: 0;
     margin: 0 auto;
     margin-top: 90px;
-    border: 1px solid tomato;
+   
 }
 
 .inspiration-message {
     width: 852px;
     height: 113px;
     margin-left: 144px;
-    border: 1px solid tomato;
+   
 }
 
 .inspiration-message h1 {
@@ -537,14 +497,12 @@ nav button {
     height: 460px;
     margin: 0 auto;
     margin-top: 151px;
-    border: 1px solid tomato;
     background: rgb(255, 255, 255);
 }
 
 .target-message {
     width: 946px;
     height: 113px;
-    border: 1px solid tomato;
     /* this border is exist in site*/
     text-align: center;
 
@@ -587,7 +545,6 @@ nav button {
     height: 210px;
     padding: 40px;
     margin-top: 48px;
-    border: 1px solid tomato;
     border-radius: 16px;
     /* this border is exist in site*/
 }
@@ -646,7 +603,6 @@ nav button {
     height: 866px;
     margin: 0 auto;
     margin-top: 111px;
-    border: 1px solid tomato;
     /* This border is exist in site */
     background: rgb(255, 255, 255);
 }
@@ -655,7 +611,6 @@ nav button {
     width: 825px;
     height: 113px;
     pad: 0;
-    border: 1px solid tomato;
     /*this border is exist in site*/
     margin-bottom: 48px;
     margin: 0 auto;
@@ -674,7 +629,6 @@ nav button {
     width: 1140px;
     height: 219px;
     padding: 40px;
-    border: 1px solid tomato;
     /*this border is exist in site*/
     margin-bottom: 20px;
     display: flex;
@@ -719,17 +673,12 @@ nav button {
 .view-box-1-picture {
     width: 94px;
     height: 84px;
-    border: 1px solid tomato;
 
 }
 
 .view-box-1-message-contain {
     width: 941px;
     height: 139px;
-    border: 1px solid tomato;
-
-
-
 
 }
 
@@ -776,7 +725,7 @@ nav button {
     width: 1140px;
     height: 219px;
     padding: 40px;
-    border: 1px solid tomato;
+    border: 1px solid;
     /*this border is exist in site*/
     margin-bottom: 20px;
     display: flex;
@@ -793,14 +742,13 @@ nav button {
 .view-box-2-picture {
     width: 94px;
     height: 84px;
-    border: 1px solid tomato;
+    
 
 }
 
 .view-box-2-message-contain {
     width: 941px;
     height: 139px;
-    border: 1px solid tomato;
 
 }
 
@@ -848,7 +796,7 @@ nav button {
     width: 1140px;
     height: 219px;
     padding: 40px;
-    border: 1px solid tomato;
+    border: 1px solid;
     /*this border is exist in site*/
     margin-bottom: 20px;
     display: flex;
@@ -865,14 +813,12 @@ nav button {
 .view-box-3-picture {
     width: 94px;
     height: 84px;
-    border: 1px solid tomato;
 
 }
 
 .view-box-3-message-contain {
     width: 941px;
     height: 139px;
-    border: 1px solid tomato;
 
 }
 
@@ -926,9 +872,8 @@ nav button {
 .support-container {
     width: 1044px;
     height: 185px;
-    border: 1px solid tomato;
     padding: 64px 48px 64px 48px;
-    border: 1px solid tomato;
+    border: 1px solid;
     /*this border is exist in site*/
     margin-top: 49px;
     background: url('images/handshake.jpg');
@@ -942,14 +887,13 @@ nav button {
 .support-container-box {
     width: 1044px;
     height: 185px;
-    border: 1px solid tomato;
+   
 }
 
 .footer {
     width: 1440px;
     height: 100px;
     margin-top: 80px;
-    /* border: 1px solid tomato; */
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.03);
 }
@@ -958,7 +902,6 @@ nav button {
     width: 730px;
     height: 104px;
     text-align: center;
-    border: 1px solid tomato;
 }
 
 .support-message h2 {
