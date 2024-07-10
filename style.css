@@ -147,7 +147,8 @@ nav button {
     background: rgb(13, 19, 33);
 
     border-radius: 8px;
-    text-decoration: none;
+    text-decoration:none;
+    
 
 
 
@@ -350,7 +351,7 @@ nav button {
     line-height: 20px;
     letter-spacing: 0%;
     text-align: left;
-    margin-bottom: 32px;
+    margin-bottom: 24px;
 }
 
 .contain-message-2 button {
