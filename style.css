@@ -6,6 +6,8 @@
 * {
     margin: 0 auto;
     padding: 0;
+   
+
 }
 
 .primary {
@@ -136,6 +138,8 @@
     border: 16px;
     padding: 80px 97px 80px 97px;
     border: 1px solid tomato;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
 }
 
 .reason-of-web-1 {
@@ -177,6 +181,7 @@
     opacity: 0.7;
     padding: 12px 20px 12px 20px;
     border: 1px solid tomato;
+
 }
 
 .learn {
@@ -202,6 +207,7 @@
     border: 1px solid tomato;
     display: flex;
     flex-direction: row;
+    border-radius: 16px;
 }
 
 
@@ -272,6 +278,7 @@
     border: 1px solid tomato;
     display: flex;
     flex-direction: row;
+    border-radius: 16px;
 }
 
 .contain-message-2 h2 {
@@ -343,6 +350,7 @@
     border: 1px solid tomato;
     display: flex;
     flex-direction: row;
+    border-radius: 16px;
 }
 
 
@@ -449,25 +457,23 @@
     padding: 1px;
     margin-top: 32px;
     border: 16px;
-    border: 1px solid tomato;
-
-}
-
-.inspiration-video iframe {
-
-
+    border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
 }
 
+
 .video-size {
 
-
+    position: static;
+    width: 1076px;
+    height: 550px;
     border: 32px;
     padding: 32px;
     text-align: center;
 
     margin: 10px 0px;
     border-radius: 16px;
+    
 
 
 
@@ -480,6 +486,7 @@
     margin: 0 auto;
     margin-top: 151px;
     border: 1px solid tomato;
+    background: rgb(255, 255, 255);
 }
 
 .target-message {
@@ -529,6 +536,7 @@
     padding: 40px;
     margin-top: 48px;
     border: 1px solid tomato;
+    border-radius: 16px;
     /* this border is exist in site*/
 }
 
@@ -588,6 +596,7 @@
     margin-top: 111px;
     border: 1px solid tomato;
     /* This border is exist in site */
+    background: rgb(255, 255, 255);
 }
 
 .next-target-message {
@@ -617,8 +626,8 @@
 
 
 .view-box-1 {
-    width: 1050px;
-    height: 138px;
+    width: 1140px;
+    height: 219px;
     padding: 40px;
     border: 1px solid tomato;
     /*this border is exist in site*/
@@ -627,6 +636,10 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
 
 }
 
@@ -669,7 +682,7 @@
     width: 941px;
     height: 139px;
     border: 1px solid tomato;
-    
+
 
 
 
@@ -715,8 +728,8 @@
 
 
 .view-box-2 {
-    width: 1050px;
-    height: 138px;
+    width: 1140px;
+    height: 219px;
     padding: 40px;
     border: 1px solid tomato;
     /*this border is exist in site*/
@@ -725,6 +738,10 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
 
 }
 
@@ -741,6 +758,7 @@
     border: 1px solid tomato;
 
 }
+
 .view-box-2-message-contain h2 {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -782,8 +800,8 @@
 
 
 .view-box-3 {
-    width: 1040px;
-    height: 138px;
+    width: 1140px;
+    height: 219px;
     padding: 40px;
     border: 1px solid tomato;
     /*this border is exist in site*/
@@ -792,6 +810,10 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
 
 }
 
@@ -808,6 +830,7 @@
     border: 1px solid tomato;
 
 }
+
 .view-box-3-message-contain h2 {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -851,6 +874,13 @@
 .support-section {
     width: 1140px;
     height: 313px;
+    
+    background: rgb(255, 255, 255);
+}
+.support-container{
+    width: 1044px;
+    height: 185px;
+    border: 1px solid tomato;
     padding: 64px 48px 64px 48px;
     border: 1px solid tomato;
     /*this border is exist in site*/
@@ -858,7 +888,9 @@
     background: url('/images/handshake.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+
     border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2);
 }
 
 .support-container-box {
@@ -872,6 +904,8 @@
     height: 100px;
     margin-top: 80px;
     /* border: 1px solid tomato; */
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
 }
 
 .support-message {
@@ -879,6 +913,35 @@
     height: 104px;
     text-align: center;
     border: 1px solid tomato;
+}
+
+.support-message h2 {
+    width: 292px;
+    height: 36px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+
+
+}
+
+.support-message p {
+    width: 606px;
+    height: 52px;
+    opacity: 0.7px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
 }
 
 .support-button {
@@ -914,6 +977,7 @@
     font-weight: 500;
     line-height: 23px;
     font: bold;
+    padding: 17px 20px 17px 20px;
 
 
 
@@ -979,6 +1043,8 @@
     width: 36px;
     height: 36px;
     background: linear-gradient(135.00deg, rgb(36, 137, 190) 14.645%, rgb(5, 117, 179) 85.355%);
+    border-radius: 10px;
+
 }
 
 .view-box-2 img {}
