@@ -99,12 +99,7 @@
 
 }
 
-/* .contain-4 {
-    width: 208px;
-    height: 66px;
-    margin-top: 23px;
-    border: 1px solid tomato; */
-/* } */
+
 .button {
     width: 208px;
     height: 66px;
@@ -228,7 +223,7 @@
     right: -0.36%;
     top: 1.74%;
     bottom: -1.74%;
-    background: url('/images/Layer_1.png');
+    background: url('images/Layer_1.png');
 }
 
 .contain-message-1 h2 {
@@ -331,7 +326,7 @@
     height: 217px;
 
     border: 1px solid tomato;
-    background: url('/images/Group\ 3.png');
+    background: url('images/Group\ 3.png');
     background-size: cover;
     background-repeat: no-repeat;
     left: 0.36%;
@@ -366,7 +361,7 @@
     height: 217px;
 
     border: 1px solid tomato;
-    background: url('/images/Group\ 4.png');
+    background: url('images/Group\ 4.png');
     background-size: cover;
     background-repeat: no-repeat;
     left: 0.36%;
@@ -611,14 +606,7 @@
 
 }
 
-/* .view-box-container{
-    /* /* 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
-    column-gap: 20px; 
-}*/
+
 
 
 
@@ -885,7 +873,7 @@
     border: 1px solid tomato;
     /*this border is exist in site*/
     margin-top: 49px;
-    background: url('/images/handshake.jpg');
+    background: url('images/handshake.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -1047,4 +1035,3 @@
 
 }
 
-.view-box-2 img {}
