@@ -75,14 +75,14 @@ nav button {
     padding: 0px;
 }
 
-.contain-1 {
+.contain-1{
 
     width: 240px;
     height: 240px;
     margin: auto;
-    background: url('images/Group.png');
     margin-bottom: 32px;
     transform: rotate(0.00deg);
+    border: 1px solid tomato;
 }
 
 .contain-2 {
@@ -1028,11 +1028,4 @@ nav button {
 
 }
 
-.footer-icon-image {
-    width: 36px;
-    height: 36px;
-    background: linear-gradient(135.00deg, rgb(36, 137, 190) 14.645%, rgb(5, 117, 179) 85.355%);
-    border-radius: 10px;
-
-}
 
