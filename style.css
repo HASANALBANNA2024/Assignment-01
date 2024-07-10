@@ -80,7 +80,7 @@ nav button {
     width: 240px;
     height: 240px;
     margin: auto;
-    
+    background: url('images/Group.png');
     margin-bottom: 32px;
     transform: rotate(0.00deg);
 }
