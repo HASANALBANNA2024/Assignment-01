@@ -28,11 +28,11 @@
 
 /* /** upper side next day te kaj korte hobe  */
 
-.banner {
+.banner .banner-image{
     width: 1440px;
     height: 652px;
     /* border: 1px solid tomato; */
-    background: url('images/Hero-bg.png');
+    /* background: url('images/Hero-bg.png'); */
     background-size: cover;
     background-repeat: no-repeat;
 }
